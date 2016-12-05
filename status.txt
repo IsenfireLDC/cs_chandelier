@@ -1,0 +1,7 @@
+To-do:
+Fix opaque texture issue
+
+Working on:
+Add crafting recipe
+
+Done:
