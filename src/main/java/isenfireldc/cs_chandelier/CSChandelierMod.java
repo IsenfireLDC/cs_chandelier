@@ -4,6 +4,7 @@ import isenfireldc.cs_chandelier.block.ModBlocks;
 import isenfireldc.cs_chandelier.client.CSChandelierTab;
 import isenfireldc.cs_chandelier.items.ModItems;
 import isenfireldc.cs_chandelier.proxy.CommonProxy;
+import isenfireldc.cs_chandelier.recipe.ModRecipes;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -36,7 +37,7 @@ public class CSChandelierMod {
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
-		
+		ModRecipes.init();
 	}
 	
 	@EventHandler
