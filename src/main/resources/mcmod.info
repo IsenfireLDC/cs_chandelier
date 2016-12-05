@@ -1,0 +1,16 @@
+[
+{
+  "modid": "cs_chandelier",
+  "name": "CS Chandelier",
+  "description": "Just adds a single chandelier.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["IsenfireLDC"],
+  "credits": "CaptainSparkelz - Crafting Recipe",
+  "logoFile": "cs_chandelier:resources/chandelier",
+  "screenshots": [],
+  "dependencies": []
+}
+]

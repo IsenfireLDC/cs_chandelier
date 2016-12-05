@@ -1,0 +1,18 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "side": "cs_chandelier:blocks/chandelier",
+            "end": "minecraft:blocks/stone"
+        }
+    },
+    "variants": {
+        "normal": {
+            "model": "cube_column"
+        },
+        "inventory": {
+            "model": "cube_column"
+        }
+    }
+    //cross does not work
+}
