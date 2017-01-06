@@ -9,6 +9,7 @@ public class ModRecipes {
 	
 	public static void init() {
 		GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.chandelier), "TTT", " T ", " T ", 'T', Blocks.TORCH);
+		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.LIT_PUMPKIN), Blocks.PUMPKIN, ModBlocks.chandelier);
 	}
 
 }
